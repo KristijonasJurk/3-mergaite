@@ -2,53 +2,73 @@ body {
     background-color: rgb(255, 255, 255);
 }
 header {
-    background-color: sandybrown;
+    background-color: sandybrown*;
     display: inline-block;
-    width: 1000px;
-    margin-left: calc(50% - 500px);
+    
+    width: 1500px;
+    margin-left: calc(50% - 750px);
 
 }
     
     header > img {
         display: inline-block;
+        float: left;
+        margin-left: 30px;
     }
 
     nav {
         display: inline-block;
+        float: right;
+        margin-top: 30px;
+        margin-right: 40px;
     }
         a {
         display: inline-block;
+        margin: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     }
     a:last-of-type {
-        color: red;
+        color: rgb(204, 91, 91);
+        border-style: solid;
     }
 main {
-    background-color: skyblue;
+    background-color: skyblue*;
     display: inline-block;
-    width: 1000px;
-    margin-left: calc(50% - 500px);
+    width: 1500px;
+    margin-left: calc(50% - 750px);
 
 }
     div {
     display: inline-block;
-    width: 30%*;
+    width: 40%;
     float: left;
     margin-top: 100px;
+    margin-left: 100px;
     background-color: green*;
 
 }
     h1 {
-    display: inline-block;
+    background-color: indigo*;
+    font-size: 120px;
+    float: top;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
     p {
-    display: inline-block;
-    width: 40%*;
-    float: right;
+    width: 75%;
+    background-color: rgb(33, 131, 41)*;
+    font-size: 30px;
+    margin-top: 5px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 main > img {
+    display: inline-block;
+    float: right;
+    margin-top:60px;
 
 }
 
