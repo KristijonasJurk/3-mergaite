@@ -1,33 +1,51 @@
 body {
-    background-color: rgb(183, 183, 214);
+    background-color: rgb(255, 255, 255);
 }
 header {
+    background-color: sandybrown;
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
 
 }
     
     header > img {
-
+        display: inline-block;
     }
 
     nav {
-
+        display: inline-block;
     }
         a {
+        display: inline-block;
 
     }
     a:last-of-type {
         color: red;
     }
 main {
+    background-color: skyblue;
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
 
 }
-div {
+    div {
+    display: inline-block;
+    width: 30%*;
+    float: left;
+    margin-top: 100px;
+    background-color: green*;
 
 }
-h1 {
+    h1 {
+    display: inline-block;
 
 }
-p {
+    p {
+    display: inline-block;
+    width: 40%*;
+    float: right;
 
 }
 main > img {
