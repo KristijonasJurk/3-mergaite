@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
     background-color: sandybrown*;
@@ -30,11 +31,12 @@ header {
     }
     a:last-of-type {
         color: rgb(204, 91, 91);
-        border-style: solid;
+        border: double;
     }
 main {
     background-color: skyblue*;
     display: inline-block;
+    margin-top: 40px;
     width: 1500px;
     margin-left: calc(50% - 750px);
 
@@ -45,12 +47,13 @@ main {
     float: left;
     margin-top: 100px;
     margin-left: 100px;
-    background-color: green*;
+    color: gray;
 
 }
     h1 {
     background-color: indigo*;
     font-size: 120px;
+    margin: 0%;
     float: top;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,6 +61,7 @@ main {
 }
     p {
     width: 75%;
+    margin: 0%;
     background-color: rgb(33, 131, 41)*;
     font-size: 30px;
     margin-top: 5px;
